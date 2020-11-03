@@ -1,0 +1,89 @@
+.hImg{
+	border-radius: 25px;
+  background: url(paper.gif);
+  background-position: left top;
+  background-repeat: repeat;
+ 
+  width: 200px;
+  height: 150px;
+  box-shadow: 5px 5px;
+}
+
+header{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-direction:column;
+}
+
+  h1 {
+  text-shadow: 0 0 3px #FF0000;
+  text-align: center ;
+	column-span: all
+}
+div.gallery {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 180px;
+}
+div.gallery:hover {
+  border: 1px solid #777;
+}
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+quote {	
+	float: right;
+	margin: auto;
+	padding: auto;
+	color: red;
+}
+.shek1{
+	float: right;
+	
+}
+.shek2{
+	float: left;	
+}
+
+@media screen and (min-width: 800px){
+	.flex-container{
+		display: flex;
+		flex-direction: row;
+		width : 100%;
+	}
+	
+	.columnsDiv{
+		column-count: 3;
+		column-gap: 25px;
+		column-width: 100px;
+	}
+}
+
+@media screen and (max-width: 800px){
+	.flex-container{
+		display: flex;
+		flex-direction: column-reverse;
+		width : 100%;
+	}
+	
+	.columnsDiv{
+		column-count: 1;
+	}
+}
+
+
+
+
+
+
+
+
+
+
