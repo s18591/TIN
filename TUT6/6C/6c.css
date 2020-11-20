@@ -1,0 +1,14 @@
+
+.error {
+    color: red;
+    border: 1px solid red;
+}
+
+.hidden {
+    visibility: hidden;
+}
+
+.show {
+    visibility: visible;
+    color: red !important;
+}
