@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+<body>
+<form name="form">
+    <label for="in1" >Input first number:</label>
+    <br>
+    <input id="in1" type="number" name="in1" required>
+    <br/>
+    <label for="in2" >Input second number:</label>
+    <br>
+    <input id="in2" type="number" name="in2" required>
+    <br/>
+    <label for="oper" > Operation:</label>
+    <select id="oper" name="oper">
+        <option value="Add">Add</option>
+        <option value="Sub">Subtract</option>
+        <option value="Mul">Multiply</option>
+        <option value="Div">Divide</option>
+    </select>
+    <br/>
+    <button type="submit" formaction="/formData">Submit</button>
+    <button type="submit" formaction="/jSon" formmethod="post" >Submit Json</button>
+</form>
+</body>
+</html>

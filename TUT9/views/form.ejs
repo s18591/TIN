@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title><%= title %></title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <script src="./javascripts/JSonReader.js"></script>
+</head>
+<body>
+<form>
+    <label for="in1">First argument:</label>
+    <br>
+    <input id="in1" type="number" name="in1" required>
+    <br/>
+    <label for="in2">Second argument:</label>
+    <br>
+    <input id="in2" type="number" name="in2" required>
+    <br/>
+    <label for="oper">Operation:</label>
+    <select id="oper" name="oper">
+        <option value="Add">Add</option>
+        <option value="Sub">Subtract</option>
+        <option value="Mul">Multiply</option>
+        <option value="Div">Divide</option>
+    </select>
+    <br/>
+    <button type="button" onclick="send()">Submit</button>
+    <br/>
+    <label for="out">Result</label>
+    <input id="out" type="number" name="out">
+</form>
+</body>
+</html>
