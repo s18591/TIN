@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Assignment 10</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <script type="module" src="../src/index.js"></script>
+</head>
+<body>
+<form name="temp">
+        <label>Temperature convertor</label>
+        <br/>
+        <label for="temp">Input temperature:</label>
+        <input id="temp" type="number" name="temp" size="50">
+        <br/>
+        <label for="Option"> Choose the base:</label>
+        <select id="Option" name="Option">
+            <option value="C">Celcius</option>
+            <option value="F">Fahrenheit</option>
+            <option value="K">Kelvin</option>
+        </select>
+        <button type="button" onclick="temperature()">Convert</button>
+        <label for="Res">Result:</label>
+        <input id="Res" name="Res" size="50" disabled>
+</form>
+<form name="dist">
+    <label>Distance convertor</label>
+    <br/>
+    <label for="dist">Input distance:</label>
+    <input id="dist" type="number" name="dist" size="50">
+    <br/>
+    <label for="OptionDist"> Choose the base:</label>
+    <select id="OptionDist" name="Option">
+        <option value="K">Kilometers</option>
+        <option value="M">Miles</option>
+    </select>
+    <button type="button" onclick="distance()">Convert</button>
+    <label for="ResDist">Result:</label>
+    <input id="ResDist" name="Res" size="50" disabled>
+</form>
+</body>
+<footer>
+    <p>Author: Mykhailo Romanchuk</p>
+</footer>
+</html>
